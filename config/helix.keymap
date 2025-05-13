@@ -32,11 +32,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp LANG_HANGEUL  &kp P         &kp W         &kp R   &kp A   &kp F                                  &kp N6     &kp N7     &kp N8     &kp N9      &kp N0     &kp DEL
-&kp BACKSPACE     &kp D         &kp T         &kp H   &kp E   &kp O                                  &kp Y      &kp U      &kp I      &kp O       &kp P      &kp BSPC
-&kp LEFT_SHIFT    &kp Y         &kp S         &kp N   &kp I   &kp U                                  &kp H      &kp J      &kp K      &kp L       &kp SEMI   &kp SQT
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &mo 4   &lt 2 ENTER  &lt 1 SPACE    &kp RBKT   &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp SLASH  &kp RET
-&trans            &trans        &trans        &trans  &trans  &trans       &trans         &kp SPACE  &mo RAISE  &kp LANG1  &kp LEFT   &kp DOWN    &kp UP     &kp RIGHT
+&kp LANG_HANGEUL          &kp P         &kp W         &kp R   &kp A   &kp F                                  &kp N6     &kp N7     &kp N8     &kp N9      &kp N0     &kp DEL
+&kp BACKSPACE             &kp D         &kp T         &kp H   &kp E   &kp O                                  &kp Y      &kp U      &kp I      &kp O       &kp P      &kp BSPC
+&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I   &kp U                                  &kp H      &kp J      &kp K      &kp L       &kp SEMI   &kp SQT
+&mt LCTRL DELETE          &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &mo 4   &lt 2 ENTER  &lt 1 SPACE    &kp RBKT   &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp SLASH  &kp RET
+&trans                    &trans        &trans        &trans  &trans  &trans       &trans         &kp SPACE  &mo RAISE  &kp LANG1  &kp LEFT   &kp DOWN    &kp UP     &kp RIGHT
             >;
         };
 
