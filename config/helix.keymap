@@ -33,7 +33,7 @@ As such, those are in use within the default layer at this time.*/
 &kp LANG_HANGEUL          &kp P         &kp W         &kp R   &kp A   &kp F                               &trans  &trans  &trans  &trans  &trans  &trans
 &kp BACKSPACE             &kp D         &kp T         &kp H   &kp E   &kp O                               &trans  &trans  &trans  &trans  &trans  &trans
 &mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I   &kp U                               &trans  &trans  &trans  &trans  &trans  &trans
-&mt LCTRL DELETE          &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &mo 4   &lt 2 ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mt LCTRL DELETE          &kp LEFT_WIN  &kp LEFT_ALT  &mo 4   &mo 3   &lt 2 ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans                    &trans        &trans        &trans  &trans  &trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -47,11 +47,11 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp TAB                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp X   &kp G   &kp K   &trans     &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp X   &kp G   &kp K   &kp DOT    &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -64,11 +64,11 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&trans  &kp SQT       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp TAB                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
