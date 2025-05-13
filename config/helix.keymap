@@ -110,11 +110,11 @@ As such, those are in use within the default layer at this time.*/
 
         layer_5 {
             bindings = <
-&kp ESC  &trans        &kp Q         &kp W         &kp E         &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans        &kp A         &kp S         &kp D         &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans        &trans        &trans        &trans        &trans        &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans        &trans        &trans        &trans        &trans        &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp NUMBER_7  &kp Q         &kp W         &kp E         &kp NUMBER_9                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp NUMBER_8  &kp A         &kp S         &kp D         &kp NUMBER_0                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &trans        &trans        &trans        &trans        &lt 2 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &trans        &trans        &trans        &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
