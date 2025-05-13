@@ -25,6 +25,21 @@ As such, those are in use within the default layer at this time.*/
             bindings = <&tog 5>;
             key-positions = <12 13>;
         };
+
+        comm_combo {
+            bindings = <&kp COMMA>;
+            key-positions = <27 28>;
+        };
+
+        dot_combo {
+            bindings = <&kp PERIOD>;
+            key-positions = <29 28>;
+        };
+
+        semicolon_combo {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <29 17>;
+        };
     };
 
     keymap {
@@ -39,11 +54,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp ESC                   &kp P         &kp W         &kp R   &kp A        &kp F                          &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB                   &kp D         &kp T         &kp H   &kp E        &kp O                          &trans  &trans  &trans  &trans  &trans  &trans
-&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I        &kp U                          &trans  &trans  &trans  &trans  &trans  &trans
-&mt LCTRL DELETE          &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &lt 3 ENTER  &lt 2 SPACE  &sl 1     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                    &trans        &trans        &trans  &trans       &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC           &kp P         &kp W         &kp R   &kp A             &kp F                                        &trans  &trans  &trans  &trans  &trans  &trans
+&lt 3 TAB         &kp D         &kp T         &kp H   &kp E             &kp O                                        &trans  &trans  &trans  &trans  &trans  &trans
+&lt 2 BACKSPACE   &kp Y         &kp S         &kp N   &kp I             &kp U                                        &trans  &trans  &trans  &trans  &trans  &trans
+&mt LCTRL DELETE  &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &mt LCTRL ESCAPE  &mt LEFT_SHIFT ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &trans        &trans        &trans  &trans            &trans                &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -113,7 +128,7 @@ As such, those are in use within the default layer at this time.*/
 &kp ESC  &kp NUMBER_7  &kp Q         &kp W         &kp E         &kp NUMBER_9                         &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &kp NUMBER_8  &kp A         &kp S         &kp D         &kp NUMBER_0                         &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans        &trans        &trans        &trans        &trans        &lt 2 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &trans        &trans        &trans        &kp NUMBER_6  &lt 2 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans        &trans        &trans        &trans        &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
