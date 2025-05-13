@@ -32,15 +32,15 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp LANG_HANGEUL  &kp P         &kp W         &kp R   &kp A   &kp F                                  &kp N6     &kp N7     &kp N8     &kp N9      &kp N0     &kp DEL
-&kp BACKSPACE     &kp D         &kp T         &kp H   &kp E   &kp O                                  &kp Y      &kp U      &kp I      &kp O       &kp P      &kp BSPC
-&kp LEFT_SHIFT    &kp Y         &kp S         &kp N   &kp I   &kp U                                  &kp H      &kp J      &kp K      &kp L       &kp SEMI   &kp SQT
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &mo 4   &lt 2 ENTER  &lt 1 SPACE    &kp RBKT   &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp SLASH  &kp RET
-&trans            &trans        &trans        &trans  &trans  &trans       &trans         &kp SPACE  &mo RAISE  &kp LANG1  &kp LEFT   &kp DOWN    &kp UP     &kp RIGHT
+&kp LANG_HANGEUL          &kp P         &kp W         &kp R   &kp A   &kp F                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp BACKSPACE             &kp D         &kp T         &kp H   &kp E   &kp O                               &trans  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I   &kp U                               &trans  &trans  &trans  &trans  &trans  &trans
+&mt LCTRL DELETE          &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &mo 4   &lt 2 ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                    &trans        &trans        &trans  &trans  &trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        lower_layer {
+        swap {
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |      |      |      |      |      |      |                                  |      |      |      |      |      |      |
             // |  ~   |  !   |  @   |  #   |  $   |  %   |                                  |  ^   |  &   |  *   |  (   |  )   |      |
@@ -49,15 +49,15 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp TAB                      &trans     &trans     &trans     &trans    &trans    &trans
-&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                        &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &kp X   &kp G   &kp K   &trans     &trans                       &trans     &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE
-&trans  &trans  &trans  &trans  &trans     &trans   &trans    &kp RPAR  &trans     &trans     &trans     &kp HOME  &kp END   &trans
-&trans  &trans  &trans  &trans  &trans     &trans   &trans    &trans    &trans     &trans     &trans     &trans    &trans    &trans
+&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp TAB                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp X   &kp G   &kp K   &trans     &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        raise_layer {
+        num {
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |       |       |       |       |       |       |                                    |       |       |       |       |       |       |
             // |   `   |   1   |   2   |   3   |   4   |   5   |                                    |   6   |   7   |   8   |   9   |   0   |  DEL  |
@@ -66,15 +66,15 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&trans  &kp SQT       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp TAB                       &trans   &trans     &trans      &trans        &trans        &trans
-&trans  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                     &kp N6   &kp N7     &kp N8      &kp N9        &kp N0        &kp DEL
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR                    &kp F6   &kp MINUS  &kp EQUAL   &kp LBKT      &kp RBKT      &kp BSLH
-&trans  &trans        &trans        &trans        &trans        &trans      &trans    &trans  &kp F12  &trans     &kp PSCRN   &kp PG_DN     &kp PG_UP     &trans
-&trans  &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans   &trans     &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP
+&trans  &kp SQT       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp TAB                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOLLAR                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        adjust_layer {
+        nav {
             // ---------------------------------------------------------------------------------------------------------------------------------
             // |    `     |    !     |    @     |    #     |    $     |    %     |                                          |    ^     |    &     |    *     |    (     |    )     |  EP TOG  |
             // |  BT CLR  | BT SEL0  | BT SEL1  | BT SEL2  | BGT SEL3 | BT SEL4  |                                          | RGB EFF+ | RGB HUE+ | RGB SAT+ | RGB SPD+ | RGB BRI+ | RGB TOG  |
@@ -98,6 +98,16 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&kp ESC  &trans        &kp Q         &kp W         &kp E         &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &kp A         &kp S         &kp D         &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &trans        &trans        &trans        &trans        &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans        &trans        &trans        &trans        &trans        &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
