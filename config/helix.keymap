@@ -30,11 +30,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp ESC                   &kp P         &kp W         &kp R   &kp A        &kp F                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB                   &kp D         &kp T         &kp H   &kp E        &kp O                               &trans  &trans  &trans  &trans  &trans  &trans
-&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I        &kp U                               &trans  &trans  &trans  &trans  &trans  &trans
-&mt LCTRL DELETE          &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &lt 3 ENTER  &lt 2 SPACE  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                    &trans        &trans        &trans  &trans       &trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC                   &kp P         &kp W         &kp R   &kp A        &kp F                          &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB                   &kp D         &kp T         &kp H   &kp E        &kp O                          &trans  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I        &kp U                          &trans  &trans  &trans  &trans  &trans  &trans
+&mt LCTRL DELETE          &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &lt 3 ENTER  &lt 2 SPACE  &sl 1     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                    &trans        &trans        &trans  &trans       &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
