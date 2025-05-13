@@ -24,21 +24,36 @@ As such, those are in use within the default layer at this time.*/
         gamemod {
             bindings = <&tog 5>;
             key-positions = <12 13>;
+            layers = <0 5>;
         };
 
         comm_combo {
             bindings = <&kp COMMA>;
             key-positions = <27 28>;
+            layers = <0>;
         };
 
         dot_combo {
             bindings = <&kp PERIOD>;
             key-positions = <29 28>;
+            layers = <0>;
         };
 
         semicolon_combo {
             bindings = <&kp SEMICOLON>;
             key-positions = <29 17>;
+            layers = <0>;
+        };
+
+        SQUAT_COMBO {
+            bindings = <&kp SQT>;
+            key-positions = <1 2>;
+            layers = <0>;
+        };
+
+        EXLAM_COMBO {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <25 13>;
         };
     };
 
@@ -54,11 +69,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp ESC           &kp P         &kp W         &kp R   &kp A             &kp F                                        &trans  &trans  &trans  &trans  &trans  &trans
-&lt 3 TAB         &kp D         &kp T         &kp H   &kp E             &kp O                                        &trans  &trans  &trans  &trans  &trans  &trans
-&lt 2 BACKSPACE   &kp Y         &kp S         &kp N   &kp I             &kp U                                        &trans  &trans  &trans  &trans  &trans  &trans
-&mt LCTRL DELETE  &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &mt LCTRL ESCAPE  &mt LEFT_SHIFT ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans        &trans        &trans  &trans            &trans                &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC                   &kp P         &kp W         &kp R   &kp A                    &kp F                               &trans  &trans  &trans  &trans  &trans  &trans
+&lt 3 TAB                 &kp D         &kp T         &kp H   &kp E                    &kp O                               &trans  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I                    &kp U                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp LANG_HANGEUL          &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &mt LEFT_CONTROL DELETE  &lt 2 ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                    &trans        &trans        &trans  &trans                   &trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -71,11 +86,11 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp SEMI                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp X   &kp G   &kp K   &kp DOT    &kp LANG_HANGEUL                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp SEMI                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp X   &kp G   &kp K   &kp DOT    &kp SLASH                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -105,11 +120,11 @@ As such, those are in use within the default layer at this time.*/
             // |          |          |          |          |          |          |          |                    |          |          |          |          |          |          |          |
 
             bindings = <
-&trans  &trans  &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans         &kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans         &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
