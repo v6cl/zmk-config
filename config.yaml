@@ -1,7 +1,0 @@
-builds:
-  helix_left:
-    board: nice_nano_v2
-    shield: helix_left
-  helix_right:
-    board: nice_nano_v2
-    shield: helix_right
