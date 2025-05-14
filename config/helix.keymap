@@ -26,35 +26,6 @@ As such, those are in use within the default layer at this time.*/
             key-positions = <12 13>;
             layers = <0 5>;
         };
-
-        comm_combo {
-            bindings = <&kp COMMA>;
-            key-positions = <27 28>;
-            layers = <0>;
-        };
-
-        dot_combo {
-            bindings = <&kp PERIOD>;
-            key-positions = <29 28>;
-            layers = <0>;
-        };
-
-        semicolon_combo {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <29 17>;
-            layers = <0>;
-        };
-
-        SQUAT_COMBO {
-            bindings = <&kp SQT>;
-            key-positions = <1 2>;
-            layers = <0>;
-        };
-
-        EXLAM_COMBO {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <25 13>;
-        };
     };
 
     keymap {
@@ -69,11 +40,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp ESC                   &kp P         &kp W         &kp R   &kp A                    &kp F                               &trans  &trans  &trans  &trans  &trans  &trans
-&lt 3 TAB                 &kp D         &kp T         &kp H   &kp E                    &kp O                               &trans  &trans  &trans  &trans  &trans  &trans
-&mt LEFT_SHIFT BACKSPACE  &kp Y         &kp S         &kp N   &kp I                    &kp U                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp LANG_HANGEUL          &sk LEFT_WIN  &kp LEFT_ALT  &mo 4   &mt LEFT_CONTROL DELETE  &lt 2 ENTER  &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                    &trans        &trans        &trans  &trans                   &trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC                   &kp SEMI      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp LEFT_BRACE                         &trans  &trans  &trans  &trans  &trans  &trans
+&lt 3 TAB                 &kp P         &kp W             &kp R                 &kp A          &kp F                                  &trans  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_SHIFT BACKSPACE  &kp D         &kp T             &kp H                 &kp E          &kp O                                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT            &kp Y         &kp S             &kp N                 &kp I          &kp U           &lt 1 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL                 &kp LEFT_WIN  &kp LEFT_ALT      &sl 3                 &sl 2          &sl 1           &kp ENTER      &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -86,11 +57,11 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &kp J   &kp M   &kp B   &kp COMMA  &kp SEMI                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp V   &kp C   &kp L   &kp Z      &kp Q                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp X   &kp G   &kp K   &kp DOT    &kp SLASH                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp COLON  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp RIGHT_BRACE                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp J      &kp M              &kp B                  &kp COMMA         &kp SEMI                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V      &kp C              &kp L                  &kp Z             &kp Q                              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp X      &kp G              &kp K                  &kp PERIOD        &kp SLASH        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans             &trans                 &trans            &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
