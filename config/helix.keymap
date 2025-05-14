@@ -74,10 +74,10 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&trans  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp NUMBER_0  &kp PERIOD    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp PLUS   &kp NUMBER_0  &kp PERIOD    &kp EQUAL     &kp ASTRK  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans        &trans        &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
