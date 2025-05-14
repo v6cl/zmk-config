@@ -21,10 +21,19 @@ As such, those are in use within the default layer at this time.*/
     combos {
         compatible = "zmk,combos";
 
-        gamemod {
-            bindings = <&tog 5>;
-            key-positions = <13 17>;
-            layers = <0 5>;
+        w {
+            bindings = <&kp W>;
+            key-positions = <15 16>;
+        };
+
+        r {
+            bindings = <&kp R>;
+            key-positions = <16>;
+        };
+
+        y {
+            bindings = <&kp Y>;
+            key-positions = <15 27>;
         };
     };
 
@@ -40,11 +49,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp ESC         &kp SEMI      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp LEFT_BRACE                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &kp P         &kp W             &kp R                 &kp A          &kp F                                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp BACKSPACE   &kp D         &kp T             &kp H                 &kp E          &kp O                                  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LEFT_SHIFT  &kp Y         &kp S             &kp N                 &kp I          &kp U           &lt 3 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LCTRL       &kp LEFT_WIN  &sk LEFT_ALT      &mo 4                 &kp SPACE      &sl 1           &lt 2 ENTER    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none                     &none         &none      &none                             &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &kp ESCAPE                &kp Q         &kp E      &kp T                             &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &kp LANG_HANGEUL          &kp A         &kp D      &kp G                             &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &mt LEFT_SHIFT BACKSPACE  &kp Z         &kp C      &kp B      &lt 3 SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &kp LCTRL                 &kp LEFT_ALT  &kp ENTER  &kp SPACE  &sl 1          &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
