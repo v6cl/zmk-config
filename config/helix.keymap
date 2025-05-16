@@ -111,11 +111,11 @@ As such, those are in use within the default layer at this time.*/
 
         GAME {
             bindings = <
-&none       &none         &none         &none         &none         &none                             &none  &none  &none  &none  &none  &none
-&none       &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                      &none  &none  &none  &none  &none  &none
-&kp ESCAPE  &none         &kp NUMBER_2  &kp W         &kp NUMBER_3  &kp NUMBER_4                      &none  &none  &none  &none  &none  &none
-&none       &kp NUMBER_1  &kp A         &kp S         &kp D         &kp NUMBER_5  &none        &none  &none  &none  &none  &none  &none  &none
-&none       &none         &none         &none         &none         &kp NUMBER_6  &kp SPACE    &none  &none  &none  &none  &none  &none  &none
+&kp ESCAPE    &none         &none         &none         &none         &none                          &none  &none  &none  &none  &none  &none
+&none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none                          &none  &none  &none  &none  &none  &none
+&kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_3  &kp W         &none         &none                          &none  &none  &none  &none  &none  &none
+&kp NUMBER_4  &kp NUMBER_2  &kp A         &kp S         &kp D         &none      &none        &none  &none  &none  &none  &none  &none  &none
+&kp NUMBER_1  &none         &none         &kp SPACE     &kp SPACE     &kp SPACE  &kp SPACE    &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
