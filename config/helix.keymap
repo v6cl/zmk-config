@@ -40,11 +40,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp ESC           &kp DEL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp BACKSPACE                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB           &kp P         &kp W                 &kp R                  &kp A      &kp F                                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp LANG_HANGEUL  &kp D         &kp T                 &kp H                  &kp E      &kp O                                 &trans  &trans  &trans  &trans  &trans  &trans
-&sk LEFT_SHIFT    &kp Y         &kp S                 &kp N                  &kp I      &kp U          &mo 3          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sk LCTRL         &kp LEFT_WIN  &sk LEFT_ALT          &mo 4                  &kp SPACE  &sl 1          &lt 2 ENTER    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC         &kp DEL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp LANG_HANGEUL                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp BACKSPACE   &kp P         &kp W                 &kp R                  &kp A      &kp F                                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp D         &kp T                 &kp H                  &kp E      &kp O                                    &trans  &trans  &trans  &trans  &trans  &trans
+&sk LEFT_SHIFT  &kp Y         &kp S                 &kp N                  &kp I      &kp U             &mo 3          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&sk LCTRL       &kp LEFT_WIN  &sk LEFT_ALT          &mo 4                  &kp SPACE  &sl 1             &lt 2 ENTER    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -57,11 +57,11 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&trans        &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON   &kp TILDE                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp J      &kp M             &kp B              &kp COMMA   &kp EXCL                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp CAPSLOCK  &kp V      &kp C             &kp L              &kp Z       &kp Q                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp X      &kp G             &kp K              &kp PERIOD  &kp SLASH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans     &trans            &trans             &trans      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON   &kp CAPS                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp J      &kp M             &kp B              &kp COMMA   &kp EXCL                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V      &kp C             &kp L              &kp Z       &kp Q                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp X      &kp G             &kp K              &kp PERIOD  &kp SLASH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans            &trans             &trans      &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
