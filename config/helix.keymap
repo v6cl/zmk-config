@@ -119,13 +119,13 @@ As such, those are in use within the default layer at this time.*/
 
         TB_G {
             bindings = <&kp G>;
-            key-positions = <54 53>;
+            key-positions = <53 52>;
             layers = <0>;
         };
 
         BM_P {
             bindings = <&kp P>;
-            key-positions = <55 54>;
+            key-positions = <54 53>;
             layers = <0>;
         };
 
