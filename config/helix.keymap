@@ -98,6 +98,36 @@ As such, those are in use within the default layer at this time.*/
             key-positions = <52 40>;
             layers = <0>;
         };
+
+        TM_V {
+            bindings = <&kp V>;
+            key-positions = <52 54>;
+            layers = <0>;
+        };
+
+        MZ_O {
+            bindings = <&kp O>;
+            key-positions = <54 38>;
+            layers = <0>;
+        };
+
+        MC_L {
+            bindings = <&kp L>;
+            key-positions = <55 40>;
+            layers = <0>;
+        };
+
+        TB_G {
+            bindings = <&kp G>;
+            key-positions = <54 53>;
+            layers = <0>;
+        };
+
+        BM_P {
+            bindings = <&kp P>;
+            key-positions = <55 54>;
+            layers = <0>;
+        };
     };
 
     keymap {
