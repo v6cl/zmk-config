@@ -128,6 +128,82 @@ As such, those are in use within the default layer at this time.*/
             key-positions = <55 54>;
             layers = <0>;
         };
+
+        QT_WIN {
+            bindings = <&sk LEFT_WIN>;
+            key-positions = <26 52>;
+            layers = <0>;
+        };
+
+        EB_ALT {
+            bindings = <&sk LEFT_ALT>;
+            key-positions = <27 53>;
+            layers = <0>;
+        };
+
+        HM_CTRL {
+            bindings = <&sk LCTRL>;
+            key-positions = <28 54>;
+            layers = <0>;
+        };
+
+        CMB_CTRLZ {
+            bindings = <&kp LC(Z)>;
+            key-positions = <55 25>;
+        };
+
+        CMB_CTRLX {
+            bindings = <&kp LC(X)>;
+            key-positions = <55 26>;
+            layers = <0>;
+        };
+
+        CMB_CTRLC {
+            bindings = <&kp LC(C)>;
+            key-positions = <55 27>;
+            layers = <0>;
+        };
+
+        CMB_CTRLV {
+            bindings = <&kp LC(V)>;
+            key-positions = <55 28>;
+            layers = <0>;
+        };
+
+        CMB_QZ {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <38 26>;
+            layers = <0>;
+        };
+
+        CMB_EC {
+            bindings = <&kp QUESTION>;
+            key-positions = <27 39>;
+            layers = <0>;
+        };
+
+        CMB_HK {
+            bindings = <&kp MINUS>;
+            key-positions = <40 28>;
+            layers = <0>;
+        };
+
+        CMB_ZT {
+            bindings = <&kp SLASH>;
+            key-positions = <38 52>;
+            layers = <0>;
+        };
+
+        CMB_CB {
+            bindings = <&kp COMMA>;
+            key-positions = <39 53>;
+            layers = <0>;
+        };
+
+        CMB_KM {
+            bindings = <&kp PERIOD>;
+            key-positions = <40 54>;
+        };
     };
 
     keymap {
