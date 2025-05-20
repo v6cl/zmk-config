@@ -26,6 +26,78 @@ As such, those are in use within the default layer at this time.*/
             key-positions = <13 17>;
             layers = <0 5>;
         };
+
+        QE_W {
+            bindings = <&kp W>;
+            key-positions = <27 26>;
+            layers = <0>;
+        };
+
+        EH_Y {
+            bindings = <&kp Y>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+
+        ZE_A {
+            bindings = <&kp A>;
+            key-positions = <38 27>;
+            layers = <0>;
+        };
+
+        ZH_S {
+            bindings = <&kp S>;
+            key-positions = <38 28>;
+            layers = <0>;
+        };
+
+        QH_D {
+            bindings = <&kp D>;
+            key-positions = <26 28>;
+            layers = <0>;
+        };
+
+        QK_U {
+            bindings = <&kp U>;
+            key-positions = <40 26>;
+            layers = <0>;
+        };
+
+        EK_J {
+            bindings = <&kp J>;
+            key-positions = <27 40>;
+            layers = <0>;
+        };
+
+        ZC_X {
+            bindings = <&kp X>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
+
+        ZK_N {
+            bindings = <&kp N>;
+            key-positions = <38 40>;
+            layers = <0>;
+        };
+
+        CK_I {
+            bindings = <&kp I>;
+            key-positions = <39 40>;
+            layers = <0>;
+        };
+
+        TC_R {
+            bindings = <&kp R>;
+            key-positions = <52 39>;
+            layers = <0>;
+        };
+
+        TK_F {
+            bindings = <&kp F>;
+            key-positions = <52 40>;
+            layers = <0>;
+        };
     };
 
     keymap {
