@@ -113,7 +113,7 @@ As such, those are in use within the default layer at this time.*/
 
         MC_L {
             bindings = <&kp L>;
-            key-positions = <55 40>;
+            key-positions = <39 54>;
             layers = <0>;
         };
 
