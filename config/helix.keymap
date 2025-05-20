@@ -204,6 +204,35 @@ As such, those are in use within the default layer at this time.*/
             bindings = <&kp PERIOD>;
             key-positions = <40 54>;
         };
+
+        NUM_CMB_PLUS {
+            bindings = <&kp PLUS>;
+            key-positions = <52 39>;
+            layers = <2>;
+        };
+
+        NUM_CMB_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <39 54>;
+            layers = <2>;
+        };
+
+        NUM_CMB_MULT {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <52 40>;
+            layers = <2>;
+        };
+
+        NUM_CMB_DIV {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <54 38>;
+        };
+
+        NUM_CMB_EQUAL {
+            bindings = <&kp EQUAL>;
+            key-positions = <38 40>;
+            layers = <2>;
+        };
     };
 
     keymap {
