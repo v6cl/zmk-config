@@ -23,214 +23,214 @@ As such, those are in use within the default layer at this time.*/
 
         gamemod {
             bindings = <&tog 5>;
-            key-positions = <13 17>;
+            key-positions = <5 1>;
             layers = <0 5>;
         };
 
         QE_W {
             bindings = <&kp W>;
-            key-positions = <27 26>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
         EH_Y {
             bindings = <&kp Y>;
-            key-positions = <27 28>;
+            key-positions = <3 4>;
             layers = <0>;
         };
 
         ZE_A {
             bindings = <&kp A>;
-            key-positions = <38 27>;
+            key-positions = <3 14>;
             layers = <0>;
         };
 
         ZH_S {
             bindings = <&kp S>;
-            key-positions = <38 28>;
+            key-positions = <4 14>;
             layers = <0>;
         };
 
         QH_D {
             bindings = <&kp D>;
-            key-positions = <26 28>;
+            key-positions = <4 2>;
             layers = <0>;
         };
 
         QK_U {
             bindings = <&kp U>;
-            key-positions = <40 26>;
+            key-positions = <2 16>;
             layers = <0>;
         };
 
         EK_J {
             bindings = <&kp J>;
-            key-positions = <27 40>;
+            key-positions = <3 16>;
             layers = <0>;
         };
 
         ZC_X {
             bindings = <&kp X>;
-            key-positions = <38 39>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
         ZK_N {
             bindings = <&kp N>;
-            key-positions = <38 40>;
+            key-positions = <14 16>;
             layers = <0>;
         };
 
         CK_I {
             bindings = <&kp I>;
-            key-positions = <39 40>;
+            key-positions = <15 16>;
             layers = <0>;
         };
 
         TC_R {
             bindings = <&kp R>;
-            key-positions = <52 39>;
+            key-positions = <15 26>;
             layers = <0>;
         };
 
         TK_F {
             bindings = <&kp F>;
-            key-positions = <52 40>;
+            key-positions = <16 26>;
             layers = <0>;
         };
 
         TM_V {
             bindings = <&kp V>;
-            key-positions = <52 54>;
+            key-positions = <26 28>;
             layers = <0>;
         };
 
         MZ_O {
             bindings = <&kp O>;
-            key-positions = <54 38>;
+            key-positions = <14 28>;
             layers = <0>;
         };
 
         MC_L {
             bindings = <&kp L>;
-            key-positions = <39 54>;
+            key-positions = <15 28>;
             layers = <0>;
         };
 
         TB_G {
             bindings = <&kp G>;
-            key-positions = <53 52>;
+            key-positions = <26 27>;
             layers = <0>;
         };
 
         BM_P {
             bindings = <&kp P>;
-            key-positions = <54 53>;
+            key-positions = <27 28>;
             layers = <0>;
         };
 
         QT_WIN {
             bindings = <&sk LEFT_WIN>;
-            key-positions = <26 52>;
+            key-positions = <26 2>;
             layers = <0>;
         };
 
         EB_ALT {
             bindings = <&sk LEFT_ALT>;
-            key-positions = <27 53>;
+            key-positions = <27 3>;
             layers = <0>;
         };
 
         HM_CTRL {
             bindings = <&sk LCTRL>;
-            key-positions = <28 54>;
+            key-positions = <28 4>;
             layers = <0>;
         };
 
         CMB_CTRLZ {
             bindings = <&kp LC(Z)>;
-            key-positions = <55 25>;
+            key-positions = <1 29>;
         };
 
         CMB_CTRLX {
             bindings = <&kp LC(X)>;
-            key-positions = <55 26>;
+            key-positions = <2 29>;
             layers = <0>;
         };
 
         CMB_CTRLC {
             bindings = <&kp LC(C)>;
-            key-positions = <55 27>;
+            key-positions = <29 3>;
             layers = <0>;
         };
 
         CMB_CTRLV {
             bindings = <&kp LC(V)>;
-            key-positions = <55 28>;
+            key-positions = <4 29>;
             layers = <0>;
         };
 
         CMB_QZ {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <38 26>;
+            key-positions = <2 14>;
             layers = <0>;
         };
 
         CMB_EC {
             bindings = <&kp QUESTION>;
-            key-positions = <27 39>;
+            key-positions = <3 15>;
             layers = <0>;
         };
 
         CMB_HK {
             bindings = <&kp MINUS>;
-            key-positions = <40 28>;
+            key-positions = <4 16>;
             layers = <0>;
         };
 
         CMB_ZT {
             bindings = <&kp SLASH>;
-            key-positions = <38 52>;
+            key-positions = <14 26>;
             layers = <0>;
         };
 
         CMB_CB {
             bindings = <&kp COMMA>;
-            key-positions = <39 53>;
+            key-positions = <15 27>;
             layers = <0>;
         };
 
         CMB_KM {
             bindings = <&kp PERIOD>;
-            key-positions = <40 54>;
+            key-positions = <16 28>;
         };
 
         NUM_CMB_PLUS {
             bindings = <&kp PLUS>;
-            key-positions = <52 39>;
+            key-positions = <15 26>;
             layers = <2>;
         };
 
         NUM_CMB_MINUS {
             bindings = <&kp MINUS>;
-            key-positions = <39 54>;
+            key-positions = <15 28>;
             layers = <2>;
         };
 
         NUM_CMB_MULT {
             bindings = <&kp KP_MULTIPLY>;
-            key-positions = <52 40>;
+            key-positions = <16 26>;
             layers = <2>;
         };
 
         NUM_CMB_DIV {
             bindings = <&kp KP_DIVIDE>;
-            key-positions = <54 38>;
+            key-positions = <14 28>;
         };
 
         NUM_CMB_EQUAL {
             bindings = <&kp EQUAL>;
-            key-positions = <38 40>;
+            key-positions = <16 14>;
             layers = <2>;
         };
     };
@@ -247,11 +247,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&none  &none            &none  &none  &none  &none                                  &trans  &trans  &trans  &trans  &trans  &trans
-&none  &none            &none  &none  &none  &none                                  &trans  &trans  &trans  &trans  &trans  &trans
-&none  &lt 4 ESC        &kp Q  &kp E  &kp H  &lt 1 TAB                              &trans  &trans  &trans  &trans  &trans  &trans
-&none  &lt 3 BACKSPACE  &kp Z  &kp C  &kp K  &kp LANG_HANGEUL      &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none  &lt 2 ENTER      &kp T  &kp B  &kp M  &mt LEFT_SHIFT SPACE  &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &lt 4 ESCAPE     &kp Q  &kp E  &kp H  &lt 1 TAB                              &trans  &trans  &trans  &trans  &trans  &trans
+&none  &lt 3 BACKSPACE  &kp Z  &kp C  &kp K  &kp LANG_HANGEUL                       &trans  &trans  &trans  &trans  &trans  &trans
+&none  &lt 2 ENTER      &kp T  &kp B  &kp M  &mt LEFT_SHIFT SPACE                   &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none            &none  &none  &none  &none                 &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none            &none  &none  &none  &none                 &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -264,11 +264,11 @@ As such, those are in use within the default layer at this time.*/
             // |      |      |      |      |      |      |      |                    |      |      |      |      |      |      |      |
 
             bindings = <
-&none  &none                 &none                  &none              &none      &none                   &none  &none  &none  &none  &none  &none
-&none  &none                 &none                  &none              &none      &none                   &none  &none  &none  &none  &none  &none
-&none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT            &kp GRAVE  &trans                  &none  &none  &none  &none  &none  &none
-&none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &none      &trans  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON      &none      &trans  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT            &kp GRAVE  &none                   &none  &none  &none  &none  &none  &none
+&none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &none      &none                   &none  &none  &none  &none  &none  &none
+&none  &kp LESS_THAN         &kp GREATER_THAN       &kp SEMI           &none      &trans                  &none  &none  &none  &none  &none  &none
+&none  &none                 &none                  &none              &none      &none   &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none                 &none                  &none              &none      &none   &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
@@ -281,11 +281,11 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&none  &none   &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none  &none   &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
 &none  &trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                  &none  &none  &none  &none  &none  &none
+&none  &none   &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none   &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
@@ -298,41 +298,41 @@ As such, those are in use within the default layer at this time.*/
             // |          |          |          |          |          |          |          |                    |          |          |          |          |          |          |          |
 
             bindings = <
-&none  &none   &none     &none         &none      &none                        &none  &none  &none  &none  &none  &none
-&none  &none   &none     &none         &none      &none                        &none  &none  &none  &none  &none  &none
-&none  &trans  &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP                  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PG_DN    &none    &none  &none  &none  &none  &none  &none  &none
-&none  &trans  &none     &none         &none      &trans       &none    &none  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PG_DN                  &none  &none  &none  &none  &none  &none
+&none  &trans  &none     &none         &none      &trans                     &none  &none  &none  &none  &none  &none
+&none  &none   &none     &none         &none      &none      &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none   &none     &none         &none      &none      &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         func {
             bindings = <
-&bt BT_CLR      &trans  &trans  &trans         &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR_ALL  &trans  &trans  &trans         &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &kp F2  &trans         &kp LA(F4)  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &kp LG(LS(S))  &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans         &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR      &none  &kp F2  &none      &kp LA(F4)  &none                  &none  &none  &none  &none  &none  &none
+&bt BT_CLR_ALL  &none  &none   &kp LG(S)  &none       &none                  &none  &none  &none  &none  &none  &none
+&none           &none  &none   &none      &none       &none                  &none  &none  &none  &none  &none  &none
+&none           &none  &none   &none      &none       &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none           &none  &none   &none      &none       &none  &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         GAME {
             bindings = <
-&none  &none         &none         &none  &none         &none                         &none  &none  &none  &none  &none  &none
-&none  &none         &none         &none  &none         &none                         &none  &none  &none  &none  &none  &none
 &none  &kp NUMBER_6  &kp NUMBER_2  &kp W  &kp NUMBER_3  &kp NUMBER_4                  &none  &none  &none  &none  &none  &none
-&none  &kp NUMBER_1  &kp A         &kp S  &kp D         &kp NUMBER_5  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none         &none         &none  &none         &lt 6 SPACE   &none    &none  &none  &none  &none  &none  &none  &none
+&none  &kp NUMBER_1  &kp A         &kp S  &kp D         &kp NUMBER_5                  &none  &none  &none  &none  &none  &none
+&none  &none         &none         &none  &none         &lt 6 SPACE                   &none  &none  &none  &none  &none  &none
+&none  &none         &none         &none  &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none         &none         &none  &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         GAME_2 {
             bindings = <
-&none  &none  &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none  &none  &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
 &none  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &none  &none  &none  &none  &none  &none
+&none  &none  &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
+&none  &none  &none         &none         &none         &trans                        &none  &none  &none  &none  &none  &none
 &none  &none  &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none         &none         &none         &trans        &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
