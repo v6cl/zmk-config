@@ -131,13 +131,13 @@ As such, those are in use within the default layer at this time.*/
 
         QT_WIN {
             bindings = <&sk LEFT_WIN>;
-            key-positions = <26 2>;
+            key-positions = <2 28>;
             layers = <0>;
         };
 
         EB_ALT {
             bindings = <&sk LEFT_ALT>;
-            key-positions = <27 3>;
+            key-positions = <3 28>;
             layers = <0>;
         };
 
@@ -207,30 +207,30 @@ As such, those are in use within the default layer at this time.*/
 
         NUM_CMB_PLUS {
             bindings = <&kp PLUS>;
-            key-positions = <15 26>;
+            key-positions = <3 14>;
             layers = <2>;
         };
 
         NUM_CMB_MINUS {
             bindings = <&kp MINUS>;
-            key-positions = <15 28>;
+            key-positions = <3 16>;
             layers = <2>;
         };
 
         NUM_CMB_MULT {
             bindings = <&kp KP_MULTIPLY>;
-            key-positions = <16 26>;
+            key-positions = <4 14>;
             layers = <2>;
         };
 
         NUM_CMB_DIV {
             bindings = <&kp KP_DIVIDE>;
-            key-positions = <14 28>;
+            key-positions = <2 16>;
         };
 
         NUM_CMB_EQUAL {
             bindings = <&kp EQUAL>;
-            key-positions = <16 14>;
+            key-positions = <2 4>;
             layers = <2>;
         };
     };
@@ -248,8 +248,8 @@ As such, those are in use within the default layer at this time.*/
 
             bindings = <
 &none  &lt 4 ESCAPE     &kp Q  &kp E  &kp H  &lt 1 TAB                              &trans  &trans  &trans  &trans  &trans  &trans
-&none  &lt 3 BACKSPACE  &kp Z  &kp C  &kp K  &kp LANG_HANGEUL                       &trans  &trans  &trans  &trans  &trans  &trans
-&none  &lt 2 SPACE      &kp T  &kp B  &kp M  &mt LEFT_SHIFT ENTER                   &trans  &trans  &trans  &trans  &trans  &trans
+&none  &lt 2 BACKSPACE  &kp Z  &kp C  &kp K  &kp LANG_HANGEUL                       &trans  &trans  &trans  &trans  &trans  &trans
+&none  &lt 3 SPACE      &kp T  &kp B  &kp M  &mt LEFT_SHIFT ENTER                   &trans  &trans  &trans  &trans  &trans  &trans
 &none  &none            &none  &none  &none  &none                 &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &none  &none            &none  &none  &none  &none                 &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -281,9 +281,9 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&none  &trans  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &none                         &none  &none  &none  &none  &none  &none
-&none  &trans  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp NUMBER_0                  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp DOT                       &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                         &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0                  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT                       &none  &none  &none  &none  &none  &none
 &none  &none   &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
 &none  &none   &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
             >;
@@ -298,11 +298,11 @@ As such, those are in use within the default layer at this time.*/
             // |          |          |          |          |          |          |          |                    |          |          |          |          |          |          |          |
 
             bindings = <
-&none  &trans  &kp HOME  &kp UP_ARROW  &kp END    &kp PG_UP                  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PG_DN                  &none  &none  &none  &none  &none  &none
-&none  &trans  &none     &none         &none      &trans                     &none  &none  &none  &none  &none  &none
-&none  &none   &none     &none         &none      &none      &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none   &none     &none         &none      &none      &none    &none  &none  &none  &none  &none  &none  &none
+&none  &trans  &none           &none           &none      &none                          &none  &none  &none  &none  &none  &none
+&none  &trans  &kp HOME        &kp UP_ARROW    &kp END    &kp PG_UP                      &none  &none  &none  &none  &none  &none
+&none  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN                  &none  &none  &none  &none  &none  &none
+&none  &none   &none           &none           &none      &none          &none    &none  &none  &none  &none  &none  &none  &none
+&none  &none   &none           &none           &none      &none          &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
