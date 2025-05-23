@@ -249,7 +249,7 @@ As such, those are in use within the default layer at this time.*/
             bindings = <
 &none  &lt 4 ESCAPE     &kp Q  &kp E  &kp H  &lt 1 TAB                              &trans  &trans  &trans  &trans  &trans  &trans
 &none  &lt 3 BACKSPACE  &kp Z  &kp C  &kp K  &kp LANG_HANGEUL                       &trans  &trans  &trans  &trans  &trans  &trans
-&none  &lt 2 ENTER      &kp T  &kp B  &kp M  &mt LEFT_SHIFT SPACE                   &trans  &trans  &trans  &trans  &trans  &trans
+&none  &lt 2 SPACE      &kp T  &kp B  &kp M  &mt LEFT_SHIFT ENTER                   &trans  &trans  &trans  &trans  &trans  &trans
 &none  &none            &none  &none  &none  &none                 &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &none  &none            &none  &none  &none  &none                 &none    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -281,9 +281,9 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&none  &trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                  &none  &none  &none  &none  &none  &none
-&none  &trans  &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &none                         &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4  &kp NUMBER_0                  &none  &none  &none  &none  &none  &none
+&none  &trans  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp DOT                       &none  &none  &none  &none  &none  &none
 &none  &none   &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
 &none  &none   &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
             >;
